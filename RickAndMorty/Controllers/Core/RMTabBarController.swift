@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller para as abas(tabs) &&  controllers das abas(tabs) da raiz
 final class RMTabBarController: UITabBarController {
 
     override func viewDidLoad() {
