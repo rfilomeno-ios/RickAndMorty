@@ -28,6 +28,9 @@
 		FDCC90E02A23921100482D32 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90DF2A23921100482D32 /* RMCharacterStatus.swift */; };
 		FDCC90E22A2392E700482D32 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90E12A2392E700482D32 /* RMCharacterGender.swift */; };
 		FDCC90E62A24223600482D32 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90E52A24223600482D32 /* RMGetAllCharactersResponse.swift */; };
+		FDCC90E82A2426FA00482D32 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90E72A2426FA00482D32 /* CharacterListViewViewModel.swift */; };
+		FDCC90EA2A24279E00482D32 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90E92A24279E00482D32 /* CharacterListView.swift */; };
+		FDCC90EC2A242C7300482D32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC90EB2A242C7300482D32 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		FDCC90DF2A23921100482D32 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		FDCC90E12A2392E700482D32 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		FDCC90E52A24223600482D32 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
+		FDCC90E72A2426FA00482D32 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		FDCC90E92A24279E00482D32 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		FDCC90EB2A242C7300482D32 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 		FDCC90C12A1A99E300482D32 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FDCC90E92A24279E00482D32 /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +154,7 @@
 		FDCC90C22A1A99F800482D32 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FDCC90E72A2426FA00482D32 /* CharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 				FDCC90B62A1A927700482D32 /* LaunchScreen.storyboard */,
 				FDCC90AB2A1A927600482D32 /* AppDelegate.swift */,
 				FDCC90AD2A1A927600482D32 /* SceneDelegate.swift */,
+				FDCC90EB2A242C7300482D32 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,6 +320,7 @@
 			files = (
 				FDCC90DC2A23904600482D32 /* RMOrigin.swift in Sources */,
 				FDCC90DE2A2390C700482D32 /* RMSingleLocation.swift in Sources */,
+				FDCC90EA2A24279E00482D32 /* CharacterListView.swift in Sources */,
 				FDCC90E62A24223600482D32 /* RMGetAllCharactersResponse.swift in Sources */,
 				FDCC90E02A23921100482D32 /* RMCharacterStatus.swift in Sources */,
 				FDCC90E22A2392E700482D32 /* RMCharacterGender.swift in Sources */,
@@ -321,11 +331,13 @@
 				FDCC90AC2A1A927600482D32 /* AppDelegate.swift in Sources */,
 				FDCC90AE2A1A927600482D32 /* SceneDelegate.swift in Sources */,
 				FDCC90D42A1AA30C00482D32 /* RMSettingsViewController.swift in Sources */,
+				FDCC90EC2A242C7300482D32 /* Extensions.swift in Sources */,
 				FDCC90D62A1F6C7000482D32 /* RMService.swift in Sources */,
 				FDCC90C72A1AA1D200482D32 /* RMLocation.swift in Sources */,
 				FDCC90DA2A1F6D3300482D32 /* RMEndpoint.swift in Sources */,
 				FDCC90C92A1AA1E900482D32 /* RMCharacter.swift in Sources */,
 				FDCC90D82A1F6C8000482D32 /* RMRequest.swift in Sources */,
+				FDCC90E82A2426FA00482D32 /* CharacterListViewViewModel.swift in Sources */,
 				FDCC90CE2A1AA2D100482D32 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
